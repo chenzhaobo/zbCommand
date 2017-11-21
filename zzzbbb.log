@@ -1,0 +1,1473 @@
+2017-11-21 22:26:14,762 - zzzbbb - INFO - expect passwd error, try not use passwd!
+2017-11-21 22:26:44,882 - zzzbbb - INFO - expect passwd error, try not use passwd!
+2017-11-21 22:32:46,711 - zzzbbb - ERROR - expect passwd error, try not use passwd!
+2017-11-21 22:33:13,676 - zzzbbb - INFO - scp command:scp /home/czb/kill.py root@139.159.215.252:/root/
+2017-11-21 22:33:14,121 - zzzbbb - ERROR - expect passwd error, try not use passwd!
+2017-11-21 22:33:42,562 - zzzbbb - INFO - scp command:scp /home/czb/kill.py root@139.159.215.252:/root/
+2017-11-21 22:33:43,021 - zzzbbb - ERROR - expect passwd error, try not use passwd!
+2017-11-21 22:33:43,022 - zzzbbb - ERROR - error:End Of File (EOF). Exception style platform.
+<pexpect.pty_spawn.spawn object at 0x7f5f869b2210>
+command: /usr/bin/scp
+args: ['/usr/bin/scp', '/home/czb/kill.py', 'root@139.159.215.252:/root/']
+buffer (last 100 chars): ''
+before (last 100 chars): '.0KB/s   --:-- ETA\rkill.py                                       100%  347    41.5KB/s   00:00    \r\n'
+after: <class 'pexpect.exceptions.EOF'>
+match: None
+match_index: None
+exitstatus: None
+flag_eof: True
+pid: 5422
+child_fd: 6
+closed: False
+timeout: 30
+delimiter: <class 'pexpect.exceptions.EOF'>
+logfile: None
+logfile_read: None
+logfile_send: None
+maxread: 2000
+ignorecase: False
+searchwindowsize: None
+delaybeforesend: 0.05
+delayafterclose: 0.1
+delayafterterminate: 0.1
+searcher: searcher_re:
+    0: re.compile("password:")
+2017-11-21 22:33:43,123 - zzzbbb - INFO - scp command:scp /home/czb/kill.py root@1.1.1.2:/root/
+2017-11-21 22:34:13,133 - zzzbbb - ERROR - expect passwd error, try not use passwd!
+2017-11-21 22:34:13,134 - zzzbbb - ERROR - error:Timeout exceeded.
+<pexpect.pty_spawn.spawn object at 0x7f5f869b2210>
+command: /usr/bin/scp
+args: ['/usr/bin/scp', '/home/czb/kill.py', 'root@1.1.1.2:/root/']
+buffer (last 100 chars): ''
+before (last 100 chars): ''
+after: <class 'pexpect.exceptions.TIMEOUT'>
+match: None
+match_index: None
+exitstatus: None
+flag_eof: False
+pid: 5424
+child_fd: 6
+closed: False
+timeout: 30
+delimiter: <class 'pexpect.exceptions.EOF'>
+logfile: None
+logfile_read: None
+logfile_send: None
+maxread: 2000
+ignorecase: False
+searchwindowsize: None
+delaybeforesend: 0.05
+delayafterclose: 0.1
+delayafterterminate: 0.1
+searcher: searcher_re:
+    0: re.compile("password:")
+2017-11-21 22:35:52,633 - zzzbbb - INFO - scp command:scp /home/czb/kill.py root@1.1.1.3:/root/
+2017-11-21 22:36:22,666 - zzzbbb - ERROR - expect passwd error, try not use passwd!
+2017-11-21 22:36:22,666 - zzzbbb - ERROR - error:Timeout exceeded.
+<pexpect.pty_spawn.spawn object at 0x7f5f869b2210>
+command: /usr/bin/scp
+args: ['/usr/bin/scp', '/home/czb/kill.py', 'root@1.1.1.3:/root/']
+buffer (last 100 chars): ''
+before (last 100 chars): ''
+after: <class 'pexpect.exceptions.TIMEOUT'>
+match: None
+match_index: None
+exitstatus: None
+flag_eof: False
+pid: 5506
+child_fd: 6
+closed: False
+timeout: 30
+delimiter: <class 'pexpect.exceptions.EOF'>
+logfile: None
+logfile_read: None
+logfile_send: None
+maxread: 2000
+ignorecase: False
+searchwindowsize: None
+delaybeforesend: 0.05
+delayafterclose: 0.1
+delayafterterminate: 0.1
+searcher: searcher_re:
+    0: re.compile("password:")
+2017-11-21 23:18:37,469 - zzzbbb - INFO - scp command:scp /home/czb/kill.py root@139.159.215.252:/root/
+2017-11-21 23:18:37,944 - zzzbbb - ERROR - expect passwd error, try not use passwd!
+2017-11-21 23:18:37,944 - zzzbbb - ERROR - error:End Of File (EOF). Exception style platform.
+<pexpect.pty_spawn.spawn object at 0x7f079d4ca350>
+command: /usr/bin/scp
+args: ['/usr/bin/scp', '/home/czb/kill.py', 'root@139.159.215.252:/root/']
+buffer (last 100 chars): ''
+before (last 100 chars): '.0KB/s   --:-- ETA\rkill.py                                       100%  347    42.0KB/s   00:00    \r\n'
+after: <class 'pexpect.exceptions.EOF'>
+match: None
+match_index: None
+exitstatus: None
+flag_eof: True
+pid: 6106
+child_fd: 6
+closed: False
+timeout: 30
+delimiter: <class 'pexpect.exceptions.EOF'>
+logfile: None
+logfile_read: None
+logfile_send: None
+maxread: 2000
+ignorecase: False
+searchwindowsize: None
+delaybeforesend: 0.05
+delayafterclose: 0.1
+delayafterterminate: 0.1
+searcher: searcher_re:
+    0: re.compile("password:")
+2017-11-21 23:18:38,045 - zzzbbb - INFO - <bound method SSH.date of <__main__.SSH object at 0x7f079d4ca290>>
+2017-11-21 23:18:38,484 - zzzbbb - ERROR - ssh connect EOF End Of File (EOF). Exception style platform.
+<pexpect.pty_spawn.spawn object at 0x7f079d4ca350>
+command: /usr/bin/ssh
+args: ['/usr/bin/ssh', 'root@139.159.215.252', 'cat /root/kill.py']
+buffer (last 100 chars): ''
+before (last 100 chars): "ess_name)\r\nfor i in pids:\r\n    os.kill(int(i), signal.SIGKILL)\r\n    print('kill PID:{}'.format(i))\r\n"
+after: <class 'pexpect.exceptions.EOF'>
+match: None
+match_index: None
+exitstatus: None
+flag_eof: True
+pid: 6108
+child_fd: 6
+closed: False
+timeout: 30
+delimiter: <class 'pexpect.exceptions.EOF'>
+logfile: None
+logfile_read: None
+logfile_send: None
+maxread: 2000
+ignorecase: False
+searchwindowsize: None
+delaybeforesend: 0.05
+delayafterclose: 0.1
+delayafterterminate: 0.1
+searcher: searcher_re:
+    0: re.compile("password:")
+    1: re.compile("continue connecting (yes/no)?")
+2017-11-21 23:20:19,383 - zzzbbb - INFO - scp command:scp /home/czb/kill.py root@139.159.215.252:/root/
+2017-11-21 23:20:19,831 - zzzbbb - ERROR - expect passwd error, try not use passwd!
+2017-11-21 23:20:19,832 - zzzbbb - ERROR - error:End Of File (EOF). Exception style platform.
+<pexpect.pty_spawn.spawn object at 0x7f23904ad350>
+command: /usr/bin/scp
+args: ['/usr/bin/scp', '/home/czb/kill.py', 'root@139.159.215.252:/root/']
+buffer (last 100 chars): ''
+before (last 100 chars): '.0KB/s   --:-- ETA\rkill.py                                       100%  347    41.6KB/s   00:00    \r\n'
+after: <class 'pexpect.exceptions.EOF'>
+match: None
+match_index: None
+exitstatus: None
+flag_eof: True
+pid: 6117
+child_fd: 6
+closed: False
+timeout: 30
+delimiter: <class 'pexpect.exceptions.EOF'>
+logfile: None
+logfile_read: None
+logfile_send: None
+maxread: 2000
+ignorecase: False
+searchwindowsize: None
+delaybeforesend: 0.05
+delayafterclose: 0.1
+delayafterterminate: 0.1
+searcher: searcher_re:
+    0: re.compile("password:")
+2017-11-21 23:20:19,933 - zzzbbb - INFO - <bound method SSH.date of <__main__.SSH object at 0x7f23904ad290>>
+2017-11-21 23:20:20,377 - zzzbbb - ERROR - ssh connect EOF End Of File (EOF). Exception style platform.
+<pexpect.pty_spawn.spawn object at 0x7f23904ad350>
+command: /usr/bin/ssh
+args: ['/usr/bin/ssh', 'root@139.159.215.252', 'cat /root/kill.py']
+buffer (last 100 chars): ''
+before (last 100 chars): "ess_name)\r\nfor i in pids:\r\n    os.kill(int(i), signal.SIGKILL)\r\n    print('kill PID:{}'.format(i))\r\n"
+after: <class 'pexpect.exceptions.EOF'>
+match: None
+match_index: None
+exitstatus: None
+flag_eof: True
+pid: 6119
+child_fd: 6
+closed: False
+timeout: 30
+delimiter: <class 'pexpect.exceptions.EOF'>
+logfile: None
+logfile_read: None
+logfile_send: None
+maxread: 2000
+ignorecase: False
+searchwindowsize: None
+delaybeforesend: 0.05
+delayafterclose: 0.1
+delayafterterminate: 0.1
+searcher: searcher_re:
+    0: re.compile("password:")
+    1: re.compile("continue connecting (yes/no)?")
+2017-11-21 23:21:24,419 - zzzbbb - INFO - scp command:scp /home/czb/kill.py root@139.159.215.252:/root/
+2017-11-21 23:21:24,906 - zzzbbb - ERROR - expect passwd error, try not use passwd!
+2017-11-21 23:21:24,907 - zzzbbb - ERROR - error:End Of File (EOF). Exception style platform.
+<pexpect.pty_spawn.spawn object at 0x7fc8c8807350>
+command: /usr/bin/scp
+args: ['/usr/bin/scp', '/home/czb/kill.py', 'root@139.159.215.252:/root/']
+buffer (last 100 chars): ''
+before (last 100 chars): '.0KB/s   --:-- ETA\rkill.py                                       100%  347    43.2KB/s   00:00    \r\n'
+after: <class 'pexpect.exceptions.EOF'>
+match: None
+match_index: None
+exitstatus: None
+flag_eof: True
+pid: 6127
+child_fd: 6
+closed: False
+timeout: 30
+delimiter: <class 'pexpect.exceptions.EOF'>
+logfile: None
+logfile_read: None
+logfile_send: None
+maxread: 2000
+ignorecase: False
+searchwindowsize: None
+delaybeforesend: 0.05
+delayafterclose: 0.1
+delayafterterminate: 0.1
+searcher: searcher_re:
+    0: re.compile("password:")
+2017-11-21 23:21:25,007 - zzzbbb - INFO - <bound method SSH.date of <__main__.SSH object at 0x7fc8c8807290>>
+2017-11-21 23:21:25,461 - zzzbbb - ERROR - ssh connect EOF End Of File (EOF). Exception style platform.
+<pexpect.pty_spawn.spawn object at 0x7fc8c8807350>
+command: /usr/bin/ssh
+args: ['/usr/bin/ssh', 'root@139.159.215.252', 'cat /root/kill.py']
+buffer (last 100 chars): ''
+before (last 100 chars): "ess_name)\r\nfor i in pids:\r\n    os.kill(int(i), signal.SIGKILL)\r\n    print('kill PID:{}'.format(i))\r\n"
+after: <class 'pexpect.exceptions.EOF'>
+match: None
+match_index: None
+exitstatus: None
+flag_eof: True
+pid: 6129
+child_fd: 6
+closed: False
+timeout: 30
+delimiter: <class 'pexpect.exceptions.EOF'>
+logfile: None
+logfile_read: None
+logfile_send: None
+maxread: 2000
+ignorecase: False
+searchwindowsize: None
+delaybeforesend: 0.05
+delayafterclose: 0.1
+delayafterterminate: 0.1
+searcher: searcher_re:
+    0: re.compile("password:")
+    1: re.compile("continue connecting (yes/no)?")
+2017-11-21 23:23:18,717 - zzzbbb - INFO - scp command:scp /home/czb/kill.py root@139.159.215.252:/root/
+2017-11-21 23:23:19,178 - zzzbbb - ERROR - expect passwd error, try not use passwd!
+2017-11-21 23:23:19,279 - zzzbbb - INFO - <bound method SSH.date of <__main__.SSH object at 0x7f2fbafa9290>>
+2017-11-21 23:23:19,709 - zzzbbb - ERROR - ssh connect EOF End Of File (EOF). Exception style platform.
+<pexpect.pty_spawn.spawn object at 0x7f2fbafa9350>
+command: /usr/bin/ssh
+args: ['/usr/bin/ssh', 'root@139.159.215.252', 'cat /root/kill.py']
+buffer (last 100 chars): ''
+before (last 100 chars): "ess_name)\r\nfor i in pids:\r\n    os.kill(int(i), signal.SIGKILL)\r\n    print('kill PID:{}'.format(i))\r\n"
+after: <class 'pexpect.exceptions.EOF'>
+match: None
+match_index: None
+exitstatus: None
+flag_eof: True
+pid: 6157
+child_fd: 6
+closed: False
+timeout: 30
+delimiter: <class 'pexpect.exceptions.EOF'>
+logfile: None
+logfile_read: None
+logfile_send: None
+maxread: 2000
+ignorecase: False
+searchwindowsize: None
+delaybeforesend: 0.05
+delayafterclose: 0.1
+delayafterterminate: 0.1
+searcher: searcher_re:
+    0: re.compile("password:")
+    1: re.compile("continue connecting (yes/no)?")
+2017-11-21 23:25:02,155 - zzzbbb - INFO - scp command:scp /home/czb/kill.py root@139.159.215.252:/root/
+2017-11-21 23:25:02,626 - zzzbbb - ERROR - expect passwd error, try not use passwd!
+2017-11-21 23:25:03,166 - zzzbbb - ERROR - ssh connect EOF End Of File (EOF). Exception style platform.
+<pexpect.pty_spawn.spawn object at 0x7f2224d41350>
+command: /usr/bin/ssh
+args: ['/usr/bin/ssh', 'root@139.159.215.252', 'date']
+buffer (last 100 chars): ''
+before (last 100 chars): 'Tue Nov 21 23:24:18 CST 2017\r\n'
+after: <class 'pexpect.exceptions.EOF'>
+match: None
+match_index: None
+exitstatus: None
+flag_eof: True
+pid: 6170
+child_fd: 6
+closed: False
+timeout: 30
+delimiter: <class 'pexpect.exceptions.EOF'>
+logfile: None
+logfile_read: None
+logfile_send: None
+maxread: 2000
+ignorecase: False
+searchwindowsize: None
+delaybeforesend: 0.05
+delayafterclose: 0.1
+delayafterterminate: 0.1
+searcher: searcher_re:
+    0: re.compile("password:")
+    1: re.compile("continue connecting (yes/no)?")
+2017-11-21 23:26:30,621 - zzzbbb - INFO - scp command:scp /home/czb/kill.py root@139.159.215.252:/root/
+2017-11-21 23:26:31,091 - zzzbbb - ERROR - expect passwd error, try not use passwd!
+2017-11-21 23:26:36,199 - zzzbbb - ERROR - ssh connect TIMEOUT Timeout exceeded.
+<pexpect.pty_spawn.spawn object at 0x7fb1b9cc4410>
+command: /usr/bin/ssh
+args: ['/usr/bin/ssh', 'root@139.159.215.252']
+buffer (last 100 chars): '#############\r\nLast login: Tue Nov 21 22:06:37 2017 from 121.35.1.115\r\r\n\x1b]0;root@zzz: ~\x07root@zzz:~# '
+before (last 100 chars): '#############\r\nLast login: Tue Nov 21 22:06:37 2017 from 121.35.1.115\r\r\n\x1b]0;root@zzz: ~\x07root@zzz:~# '
+after: <class 'pexpect.exceptions.TIMEOUT'>
+match: None
+match_index: None
+exitstatus: None
+flag_eof: False
+pid: 6181
+child_fd: 6
+closed: False
+timeout: 30
+delimiter: <class 'pexpect.exceptions.EOF'>
+logfile: None
+logfile_read: None
+logfile_send: None
+maxread: 2000
+ignorecase: False
+searchwindowsize: None
+delaybeforesend: 0.05
+delayafterclose: 0.1
+delayafterterminate: 0.1
+searcher: searcher_re:
+    0: re.compile("password:")
+    1: re.compile("continue connecting (yes/no)?")
+2017-11-21 23:27:45,193 - zzzbbb - INFO - scp command:scp /home/czb/kill.py root@139.159.215.252:/root/
+2017-11-21 23:27:45,654 - zzzbbb - ERROR - expect passwd error, try not use passwd!
+2017-11-21 23:27:50,764 - zzzbbb - ERROR - ssh connect TIMEOUT Timeout exceeded.
+<pexpect.pty_spawn.spawn object at 0x7fc1e089b350>
+command: /usr/bin/ssh
+args: ['/usr/bin/ssh', 'root@139.159.215.252']
+buffer (last 100 chars): '#############\r\nLast login: Tue Nov 21 23:25:47 2017 from 121.35.1.115\r\r\n\x1b]0;root@zzz: ~\x07root@zzz:~# '
+before (last 100 chars): '#############\r\nLast login: Tue Nov 21 23:25:47 2017 from 121.35.1.115\r\r\n\x1b]0;root@zzz: ~\x07root@zzz:~# '
+after: <class 'pexpect.exceptions.TIMEOUT'>
+match: None
+match_index: None
+exitstatus: None
+flag_eof: False
+pid: 6195
+child_fd: 6
+closed: False
+timeout: 30
+delimiter: <class 'pexpect.exceptions.EOF'>
+logfile: None
+logfile_read: None
+logfile_send: None
+maxread: 2000
+ignorecase: False
+searchwindowsize: None
+delaybeforesend: 0.05
+delayafterclose: 0.1
+delayafterterminate: 0.1
+searcher: searcher_re:
+    0: re.compile("password:")
+    1: re.compile("continue connecting (yes/no)?")
+2017-11-21 23:28:35,333 - zzzbbb - INFO - scp command:scp /home/czb/kill.py root@139.159.215.252:/root/
+2017-11-21 23:28:35,780 - zzzbbb - ERROR - expect passwd error, try not use passwd!
+2017-11-21 23:28:40,887 - zzzbbb - ERROR - ssh connect TIMEOUT Timeout exceeded.
+<pexpect.pty_spawn.spawn object at 0x7f89c0469410>
+command: /usr/bin/ssh
+args: ['/usr/bin/ssh', 'root@139.159.215.252']
+buffer (last 100 chars): '#############\r\nLast login: Tue Nov 21 23:27:01 2017 from 121.35.1.115\r\r\n\x1b]0;root@zzz: ~\x07root@zzz:~# '
+before (last 100 chars): '#############\r\nLast login: Tue Nov 21 23:27:01 2017 from 121.35.1.115\r\r\n\x1b]0;root@zzz: ~\x07root@zzz:~# '
+after: <class 'pexpect.exceptions.TIMEOUT'>
+match: None
+match_index: None
+exitstatus: None
+flag_eof: False
+pid: 6208
+child_fd: 6
+closed: False
+timeout: 30
+delimiter: <class 'pexpect.exceptions.EOF'>
+logfile: None
+logfile_read: None
+logfile_send: None
+maxread: 2000
+ignorecase: False
+searchwindowsize: None
+delaybeforesend: 0.05
+delayafterclose: 0.1
+delayafterterminate: 0.1
+searcher: searcher_re:
+    0: re.compile("password:")
+    1: re.compile("continue connecting (yes/no)?")
+2017-11-21 23:28:50,857 - zzzbbb - INFO - scp command:scp /home/czb/kill.py root@139.159.215.252:/root/
+2017-11-21 23:28:51,308 - zzzbbb - ERROR - expect passwd error, try not use passwd!
+2017-11-21 23:28:51,856 - zzzbbb - ERROR - ssh connect EOF End Of File (EOF). Exception style platform.
+<pexpect.pty_spawn.spawn object at 0x7f4e7c42c350>
+command: /usr/bin/ssh
+args: ['/usr/bin/ssh', 'root@139.159.215.252', 'date']
+buffer (last 100 chars): ''
+before (last 100 chars): 'Tue Nov 21 23:28:07 CST 2017\r\n'
+after: <class 'pexpect.exceptions.EOF'>
+match: None
+match_index: None
+exitstatus: None
+flag_eof: True
+pid: 6216
+child_fd: 6
+closed: False
+timeout: 30
+delimiter: <class 'pexpect.exceptions.EOF'>
+logfile: None
+logfile_read: None
+logfile_send: None
+maxread: 2000
+ignorecase: False
+searchwindowsize: None
+delaybeforesend: 0.05
+delayafterclose: 0.1
+delayafterterminate: 0.1
+searcher: searcher_re:
+    0: re.compile("password:")
+    1: re.compile("continue connecting (yes/no)?")
+2017-11-21 23:30:32,329 - zzzbbb - INFO - scp command:scp /home/czb/kill.py root@139.159.215.252:/root/
+2017-11-21 23:30:32,784 - zzzbbb - ERROR - expect passwd error, try not use passwd!
+2017-11-21 23:30:33,307 - zzzbbb - ERROR - ssh connect EOF End Of File (EOF). Exception style platform.
+<pexpect.pty_spawn.spawn object at 0x7fe1476fb350>
+command: /usr/bin/ssh
+args: ['/usr/bin/ssh', 'root@139.159.215.252', 'date']
+buffer (last 100 chars): ''
+before (last 100 chars): 'Tue Nov 21 23:29:48 CST 2017\r\n'
+after: <class 'pexpect.exceptions.EOF'>
+match: None
+match_index: None
+exitstatus: None
+flag_eof: True
+pid: 6228
+child_fd: 6
+closed: False
+timeout: 30
+delimiter: <class 'pexpect.exceptions.EOF'>
+logfile: None
+logfile_read: None
+logfile_send: None
+maxread: 2000
+ignorecase: False
+searchwindowsize: None
+delaybeforesend: 0.05
+delayafterclose: 0.1
+delayafterterminate: 0.1
+searcher: searcher_re:
+    0: re.compile("password:")
+    1: re.compile("continue connecting (yes/no)?")
+2017-11-21 23:31:01,407 - zzzbbb - INFO - scp command:scp /home/czb/kill.py root@139.159.215.252:/root/
+2017-11-21 23:31:01,870 - zzzbbb - ERROR - expect passwd error, try not use passwd!
+2017-11-21 23:31:02,418 - zzzbbb - ERROR - ssh connect EOF End Of File (EOF). Exception style platform.
+<pexpect.pty_spawn.spawn object at 0x7fb9c8ec8390>
+command: /usr/bin/ssh
+args: ['/usr/bin/ssh', 'root@139.159.215.252', 'date']
+buffer (last 100 chars): ''
+before (last 100 chars): 'Tue Nov 21 23:30:18 CST 2017\r\n'
+after: <class 'pexpect.exceptions.EOF'>
+match: None
+match_index: None
+exitstatus: None
+flag_eof: True
+pid: 6238
+child_fd: 6
+closed: False
+timeout: 30
+delimiter: <class 'pexpect.exceptions.EOF'>
+logfile: None
+logfile_read: None
+logfile_send: None
+maxread: 2000
+ignorecase: False
+searchwindowsize: None
+delaybeforesend: 0.05
+delayafterclose: 0.1
+delayafterterminate: 0.1
+searcher: searcher_re:
+    0: re.compile("password:")
+    1: re.compile("continue connecting (yes/no)?")
+2017-11-21 23:31:45,249 - zzzbbb - INFO - scp command:scp /home/czb/kill.py root@139.159.215.252:/root/
+2017-11-21 23:31:45,714 - zzzbbb - ERROR - expect passwd error, try not use passwd!
+2017-11-21 23:31:46,252 - zzzbbb - ERROR - ssh connect EOF End Of File (EOF). Exception style platform.
+<pexpect.pty_spawn.spawn object at 0x7f2a4eb51350>
+command: /usr/bin/ssh
+args: ['/usr/bin/ssh', 'root@139.159.215.252', 'date']
+buffer (last 100 chars): ''
+before (last 100 chars): 'Tue Nov 21 23:31:01 CST 2017\r\n'
+after: <class 'pexpect.exceptions.EOF'>
+match: None
+match_index: None
+exitstatus: None
+flag_eof: True
+pid: 6250
+child_fd: 6
+closed: False
+timeout: 30
+delimiter: <class 'pexpect.exceptions.EOF'>
+logfile: None
+logfile_read: None
+logfile_send: None
+maxread: 2000
+ignorecase: False
+searchwindowsize: None
+delaybeforesend: 0.05
+delayafterclose: 0.1
+delayafterterminate: 0.1
+searcher: searcher_re:
+    0: re.compile("password:")
+    1: re.compile("continue connecting (yes/no)?")
+2017-11-21 23:32:38,414 - zzzbbb - INFO - scp command:scp /home/czb/kill.py root@139.159.215.252:/root/
+2017-11-21 23:32:38,892 - zzzbbb - ERROR - expect passwd error, try not use passwd!
+2017-11-21 23:32:39,428 - zzzbbb - ERROR - ssh connect EOF End Of File (EOF). Exception style platform.
+<pexpect.pty_spawn.spawn object at 0x7f5d306bc390>
+command: /usr/bin/ssh
+args: ['/usr/bin/ssh', 'root@139.159.215.252', 'date']
+buffer (last 100 chars): ''
+before (last 100 chars): 'Tue Nov 21 23:31:55 CST 2017\r\n'
+after: <class 'pexpect.exceptions.EOF'>
+match: None
+match_index: None
+exitstatus: None
+flag_eof: True
+pid: 6264
+child_fd: 6
+closed: False
+timeout: 30
+delimiter: <class 'pexpect.exceptions.EOF'>
+logfile: None
+logfile_read: None
+logfile_send: None
+maxread: 2000
+ignorecase: False
+searchwindowsize: None
+delaybeforesend: 0.05
+delayafterclose: 0.1
+delayafterterminate: 0.1
+searcher: searcher_re:
+    0: re.compile("password:")
+    1: re.compile("continue connecting (yes/no)?")
+2017-11-21 23:32:47,555 - zzzbbb - INFO - scp command:scp /home/czb/kill.py root@139.159.215.252:/root/
+2017-11-21 23:32:48,013 - zzzbbb - ERROR - expect passwd error, try not use passwd!
+2017-11-21 23:32:48,552 - zzzbbb - ERROR - ssh connect EOF End Of File (EOF). Exception style platform.
+<pexpect.pty_spawn.spawn object at 0x7fc49f275390>
+command: /usr/bin/ssh
+args: ['/usr/bin/ssh', 'root@139.159.215.252', 'date']
+buffer (last 100 chars): ''
+before (last 100 chars): 'Tue Nov 21 23:32:04 CST 2017\r\n'
+after: <class 'pexpect.exceptions.EOF'>
+match: None
+match_index: None
+exitstatus: None
+flag_eof: True
+pid: 6272
+child_fd: 6
+closed: False
+timeout: 30
+delimiter: <class 'pexpect.exceptions.EOF'>
+logfile: None
+logfile_read: None
+logfile_send: None
+maxread: 2000
+ignorecase: False
+searchwindowsize: None
+delaybeforesend: 0.05
+delayafterclose: 0.1
+delayafterterminate: 0.1
+searcher: searcher_re:
+    0: re.compile("password:")
+    1: re.compile("continue connecting (yes/no)?")
+2017-11-21 23:32:48,653 - zzzbbb - INFO - ssh.date ---------- Tue Nov 21 23:32:04 CST 2017
+
+2017-11-21 23:32:49,077 - zzzbbb - ERROR - ssh connect EOF End Of File (EOF). Exception style platform.
+<pexpect.pty_spawn.spawn object at 0x7fc49f2754d0>
+command: /usr/bin/ssh
+args: ['/usr/bin/ssh', 'root@139.159.215.252', 'cat /root/kill.py']
+buffer (last 100 chars): ''
+before (last 100 chars): "ess_name)\r\nfor i in pids:\r\n    os.kill(int(i), signal.SIGKILL)\r\n    print('kill PID:{}'.format(i))\r\n"
+after: <class 'pexpect.exceptions.EOF'>
+match: None
+match_index: None
+exitstatus: None
+flag_eof: True
+pid: 6273
+child_fd: 6
+closed: False
+timeout: 30
+delimiter: <class 'pexpect.exceptions.EOF'>
+logfile: None
+logfile_read: None
+logfile_send: None
+maxread: 2000
+ignorecase: False
+searchwindowsize: None
+delaybeforesend: 0.05
+delayafterclose: 0.1
+delayafterterminate: 0.1
+searcher: searcher_re:
+    0: re.compile("password:")
+    1: re.compile("continue connecting (yes/no)?")
+2017-11-21 23:36:42,036 - zzzbbb - INFO - scp command:scp /home/czb/kill.py root@139.159.215.252:/root/
+2017-11-21 23:36:42,499 - zzzbbb - ERROR - expect passwd error, try not use passwd!
+2017-11-21 23:36:47,607 - zzzbbb - ERROR - ssh connect TIMEOUT Timeout exceeded.
+<pexpect.pty_spawn.spawn object at 0x7fb08ef7a350>
+command: /usr/bin/ssh
+args: ['/usr/bin/ssh', 'root@139.159.215.252']
+buffer (last 100 chars): '#############\r\nLast login: Tue Nov 21 23:27:51 2017 from 121.35.1.115\r\r\n\x1b]0;root@zzz: ~\x07root@zzz:~# '
+before (last 100 chars): '#############\r\nLast login: Tue Nov 21 23:27:51 2017 from 121.35.1.115\r\r\n\x1b]0;root@zzz: ~\x07root@zzz:~# '
+after: <class 'pexpect.exceptions.TIMEOUT'>
+match: None
+match_index: None
+exitstatus: None
+flag_eof: False
+pid: 6511
+child_fd: 6
+closed: False
+timeout: 30
+delimiter: <class 'pexpect.exceptions.EOF'>
+logfile: None
+logfile_read: None
+logfile_send: None
+maxread: 2000
+ignorecase: False
+searchwindowsize: None
+delaybeforesend: 0.05
+delayafterclose: 0.1
+delayafterterminate: 0.1
+searcher: searcher_re:
+    0: re.compile("password:")
+    1: re.compile("continue connecting (yes/no)?")
+2017-11-21 23:39:31,593 - zzzbbb - INFO - scp command:scp /home/czb/kill.py root@139.159.215.252:/root/
+2017-11-21 23:39:32,031 - zzzbbb - ERROR - expect passwd error, try not use passwd!
+2017-11-21 23:39:37,140 - zzzbbb - ERROR - ssh connect TIMEOUT 
+Timeout exceeded.
+<pexpect.pty_spawn.spawn object at 0x7ffbce468350>
+command: /usr/bin/ssh
+args: ['/usr/bin/ssh', 'root@139.159.215.252']
+buffer (last 100 chars): '#############\r\nLast login: Tue Nov 21 23:35:58 2017 from 121.35.1.115\r\r\n\x1b]0;root@zzz: ~\x07root@zzz:~# '
+before (last 100 chars): '#############\r\nLast login: Tue Nov 21 23:35:58 2017 from 121.35.1.115\r\r\n\x1b]0;root@zzz: ~\x07root@zzz:~# '
+after: <class 'pexpect.exceptions.TIMEOUT'>
+match: None
+match_index: None
+exitstatus: None
+flag_eof: False
+pid: 6547
+child_fd: 6
+closed: False
+timeout: 30
+delimiter: <class 'pexpect.exceptions.EOF'>
+logfile: None
+logfile_read: None
+logfile_send: None
+maxread: 2000
+ignorecase: False
+searchwindowsize: None
+delaybeforesend: 0.05
+delayafterclose: 0.1
+delayafterterminate: 0.1
+searcher: searcher_re:
+    0: re.compile("password:")
+    1: re.compile("continue connecting (yes/no)?")
+
+
+2017-11-21 23:40:48,074 - zzzbbb - INFO - scp command:scp /home/czb/kill.py root@139.159.215.252:/root/
+2017-11-21 23:40:48,526 - zzzbbb - ERROR - expect passwd error, try not use passwd!
+2017-11-21 23:40:49,073 - zzzbbb - ERROR - ssh connect EOF 
+End Of File (EOF). Exception style platform.
+<pexpect.pty_spawn.spawn object at 0x7f417a282390>
+command: /usr/bin/ssh
+args: ['/usr/bin/ssh', 'root@139.159.215.252', 'date']
+buffer (last 100 chars): ''
+before (last 100 chars): 'Tue Nov 21 23:40:04 CST 2017\r\n'
+after: <class 'pexpect.exceptions.EOF'>
+match: None
+match_index: None
+exitstatus: None
+flag_eof: True
+pid: 6560
+child_fd: 6
+closed: False
+timeout: 30
+delimiter: <class 'pexpect.exceptions.EOF'>
+logfile: None
+logfile_read: None
+logfile_send: None
+maxread: 2000
+ignorecase: False
+searchwindowsize: None
+delaybeforesend: 0.05
+delayafterclose: 0.1
+delayafterterminate: 0.1
+searcher: searcher_re:
+    0: re.compile("password:")
+    1: re.compile("continue connecting (yes/no)?")
+
+
+2017-11-21 23:46:06,672 - zzzbbb - INFO - scp command:scp /home/czb/kill.py root@139.159.215.252:/root/
+2017-11-21 23:46:07,148 - zzzbbb - ERROR - expect passwd error, try not use passwd!
+2017-11-21 23:46:07,695 - zzzbbb - ERROR - ssh connect EOF 
+End Of File (EOF). Exception style platform.
+<pexpect.pty_spawn.spawn object at 0x7f8638c7e3d0>
+command: /usr/bin/ssh
+args: ['/usr/bin/ssh', 'root@139.159.215.252', 'date']
+buffer (last 100 chars): ''
+before (last 100 chars): 'Tue Nov 21 23:45:23 CST 2017\r\n'
+after: <class 'pexpect.exceptions.EOF'>
+match: None
+match_index: None
+exitstatus: None
+flag_eof: True
+pid: 6612
+child_fd: 6
+closed: False
+timeout: 30
+delimiter: <class 'pexpect.exceptions.EOF'>
+logfile: None
+logfile_read: None
+logfile_send: None
+maxread: 2000
+ignorecase: False
+searchwindowsize: None
+delaybeforesend: 0.05
+delayafterclose: 0.1
+delayafterterminate: 0.1
+searcher: searcher_re:
+    0: re.compile("password:")
+    1: re.compile("continue connecting (yes/no)?")
+
+
+2017-11-21 23:48:21,127 - zzzbbb - INFO - scp command:scp /home/czb/kill.py root@139.159.215.252:/root/
+2017-11-21 23:48:21,584 - zzzbbb - ERROR - expect passwd error, try not use passwd!
+2017-11-21 23:48:26,692 - zzzbbb - ERROR - ssh connect TIMEOUT 
+Timeout exceeded.
+<pexpect.pty_spawn.spawn object at 0x7f61af056390>
+command: /usr/bin/ssh
+args: ['/usr/bin/ssh', 'root@139.159.215.252']
+buffer (last 100 chars): '#############\r\nLast login: Tue Nov 21 23:38:48 2017 from 121.35.1.115\r\r\n\x1b]0;root@zzz: ~\x07root@zzz:~# '
+before (last 100 chars): '#############\r\nLast login: Tue Nov 21 23:38:48 2017 from 121.35.1.115\r\r\n\x1b]0;root@zzz: ~\x07root@zzz:~# '
+after: <class 'pexpect.exceptions.TIMEOUT'>
+match: None
+match_index: None
+exitstatus: None
+flag_eof: False
+pid: 7014
+child_fd: 6
+closed: False
+timeout: 30
+delimiter: <class 'pexpect.exceptions.EOF'>
+logfile: None
+logfile_read: None
+logfile_send: None
+maxread: 2000
+ignorecase: False
+searchwindowsize: None
+delaybeforesend: 0.05
+delayafterclose: 0.1
+delayafterterminate: 0.1
+searcher: searcher_re:
+    0: re.compile("password:")
+    1: re.compile("continue connecting (yes/no)?")
+
+
+2017-11-21 23:51:02,937 - zzzbbb - INFO - scp command:scp /home/czb/kill.py root@139.159.215.252:/root/
+2017-11-21 23:51:03,398 - zzzbbb - ERROR - expect passwd error, try not use passwd!
+2017-11-21 23:51:03,940 - zzzbbb - ERROR - ssh connect EOF 
+End Of File (EOF). Exception style platform.
+<pexpect.pty_spawn.spawn object at 0x7fc2e699e410>
+command: /usr/bin/ssh
+args: ['/usr/bin/ssh', 'root@139.159.215.252', 'date']
+buffer (last 100 chars): ''
+before (last 100 chars): 'Tue Nov 21 23:50:19 CST 2017\r\n'
+after: <class 'pexpect.exceptions.EOF'>
+match: None
+match_index: None
+exitstatus: None
+flag_eof: True
+pid: 7025
+child_fd: 6
+closed: False
+timeout: 30
+delimiter: <class 'pexpect.exceptions.EOF'>
+logfile: None
+logfile_read: None
+logfile_send: None
+maxread: 2000
+ignorecase: False
+searchwindowsize: None
+delaybeforesend: 0.05
+delayafterclose: 0.1
+delayafterterminate: 0.1
+searcher: searcher_re:
+    0: re.compile("password:")
+    1: re.compile("continue connecting (yes/no)?")
+
+
+2017-11-21 23:51:25,350 - zzzbbb - INFO - scp command:scp /home/czb/kill.py root@139.159.215.252:/root/
+2017-11-21 23:51:25,809 - zzzbbb - ERROR - expect passwd error, try not use passwd!
+2017-11-21 23:51:26,352 - zzzbbb - ERROR - ssh connect EOF 
+End Of File (EOF). Exception style platform.
+<pexpect.pty_spawn.spawn object at 0x7f37b1ddb410>
+command: /usr/bin/ssh
+args: ['/usr/bin/ssh', 'root@139.159.215.252', 'date']
+buffer (last 100 chars): ''
+before (last 100 chars): 'Tue Nov 21 23:50:41 CST 2017\r\n'
+after: <class 'pexpect.exceptions.EOF'>
+match: None
+match_index: None
+exitstatus: None
+flag_eof: True
+pid: 7037
+child_fd: 6
+closed: False
+timeout: 30
+delimiter: <class 'pexpect.exceptions.EOF'>
+logfile: None
+logfile_read: None
+logfile_send: None
+maxread: 2000
+ignorecase: False
+searchwindowsize: None
+delaybeforesend: 0.05
+delayafterclose: 0.1
+delayafterterminate: 0.1
+searcher: searcher_re:
+    0: re.compile("password:")
+    1: re.compile("continue connecting (yes/no)?")
+
+
+2017-11-21 23:51:45,565 - zzzbbb - INFO - scp command:scp /home/czb/kill.py root@139.159.215.252:/root/
+2017-11-21 23:51:46,017 - zzzbbb - ERROR - expect passwd error, try not use passwd!
+2017-11-21 23:51:46,545 - zzzbbb - ERROR - ssh connect EOF 
+End Of File (EOF). Exception style platform.
+<pexpect.pty_spawn.spawn object at 0x7f3361650410>
+command: /usr/bin/ssh
+args: ['/usr/bin/ssh', 'root@139.159.215.252', 'date']
+buffer (last 100 chars): ''
+before (last 100 chars): 'Tue Nov 21 23:51:02 CST 2017\r\n'
+after: <class 'pexpect.exceptions.EOF'>
+match: None
+match_index: None
+exitstatus: None
+flag_eof: True
+pid: 7045
+child_fd: 6
+closed: False
+timeout: 30
+delimiter: <class 'pexpect.exceptions.EOF'>
+logfile: None
+logfile_read: None
+logfile_send: None
+maxread: 2000
+ignorecase: False
+searchwindowsize: None
+delaybeforesend: 0.05
+delayafterclose: 0.1
+delayafterterminate: 0.1
+searcher: searcher_re:
+    0: re.compile("password:")
+    1: re.compile("continue connecting (yes/no)?")
+
+
+2017-11-21 23:52:08,346 - zzzbbb - INFO - scp command:scp /home/czb/kill.py root@139.159.215.252:/root/
+2017-11-21 23:52:08,798 - zzzbbb - ERROR - expect passwd error, try not use passwd!
+2017-11-21 23:52:09,367 - zzzbbb - ERROR - ssh connect EOF 
+End Of File (EOF). Exception style platform.
+<pexpect.pty_spawn.spawn object at 0x7fc0dd89d410>
+command: /usr/bin/ssh
+args: ['/usr/bin/ssh', 'root@139.159.215.252', 'date']
+buffer (last 100 chars): ''
+before (last 100 chars): 'Tue Nov 21 23:51:25 CST 2017\r\n'
+after: <class 'pexpect.exceptions.EOF'>
+match: None
+match_index: None
+exitstatus: None
+flag_eof: True
+pid: 7056
+child_fd: 6
+closed: False
+timeout: 30
+delimiter: <class 'pexpect.exceptions.EOF'>
+logfile: None
+logfile_read: None
+logfile_send: None
+maxread: 2000
+ignorecase: False
+searchwindowsize: None
+delaybeforesend: 0.05
+delayafterclose: 0.1
+delayafterterminate: 0.1
+searcher: searcher_re:
+    0: re.compile("password:")
+    1: re.compile("continue connecting (yes/no)?")
+
+
+2017-11-21 23:52:09,418 - zzzbbb - INFO - ---------- :Tue Nov 21 23:51:25 CST 2017
+
+2017-11-21 23:52:09,468 - zzzbbb - INFO - -----------:Tue Nov 21 23:51:25 CST 2017
+
+2017-11-21 23:56:59,703 - zzzbbb - INFO - scp command:scp /home/czb/kill.py root@139.159.215.252:/root/
+2017-11-21 23:57:00,160 - zzzbbb - ERROR - expect passwd error, try not use passwd!
+2017-11-21 23:57:12,021 - zzzbbb - INFO - scp command:scp /home/czb/kill.py root@139.159.215.252:/root/
+2017-11-21 23:57:12,498 - zzzbbb - ERROR - expect passwd error, try not use passwd!
+2017-11-21 23:57:13,033 - zzzbbb - ERROR - ssh connect EOF 
+End Of File (EOF). Exception style platform.
+<pexpect.pty_spawn.spawn object at 0x7f6db12aa450>
+command: /usr/bin/ssh
+args: ['/usr/bin/ssh', 'root@139.159.215.252', 'date']
+buffer (last 100 chars): ''
+before (last 100 chars): 'Tue Nov 21 23:56:28 CST 2017\r\n'
+after: <class 'pexpect.exceptions.EOF'>
+match: None
+match_index: None
+exitstatus: None
+flag_eof: True
+pid: 7088
+child_fd: 6
+closed: False
+timeout: 30
+delimiter: <class 'pexpect.exceptions.EOF'>
+logfile: None
+logfile_read: None
+logfile_send: None
+maxread: 2000
+ignorecase: False
+searchwindowsize: None
+delaybeforesend: 0.05
+delayafterclose: 0.1
+delayafterterminate: 0.1
+searcher: searcher_re:
+    0: re.compile("password:")
+    1: re.compile("continue connecting (yes/no)?")
+
+
+2017-11-21 23:57:13,034 - zzzbbb - INFO - ---------- :Tue Nov 21 23:56:28 CST 2017
+
+2017-11-21 23:57:13,469 - zzzbbb - ERROR - ssh connect EOF 
+End Of File (EOF). Exception style platform.
+<pexpect.pty_spawn.spawn object at 0x7f6db12aa590>
+command: /usr/bin/ssh
+args: ['/usr/bin/ssh', 'root@139.159.215.252', 'cat /root/kill.py']
+buffer (last 100 chars): ''
+before (last 100 chars): "ess_name)\r\nfor i in pids:\r\n    os.kill(int(i), signal.SIGKILL)\r\n    print('kill PID:{}'.format(i))\r\n"
+after: <class 'pexpect.exceptions.EOF'>
+match: None
+match_index: None
+exitstatus: None
+flag_eof: True
+pid: 7089
+child_fd: 7
+closed: False
+timeout: 30
+delimiter: <class 'pexpect.exceptions.EOF'>
+logfile: None
+logfile_read: None
+logfile_send: None
+maxread: 2000
+ignorecase: False
+searchwindowsize: None
+delaybeforesend: 0.05
+delayafterclose: 0.1
+delayafterterminate: 0.1
+searcher: searcher_re:
+    0: re.compile("password:")
+    1: re.compile("continue connecting (yes/no)?")
+
+
+2017-11-21 23:57:13,570 - zzzbbb - INFO - -----------:#!/usr/bin/python3
+#!encoding utf-8
+from subprocess import check_output
+import sys
+import os
+import signal
+def get_pid(name):
+    return check_output(['pgrep','-f','baidu']).decode('utf-8').split('\n')
+
+
+process_name = sys.argv[1]
+pids =  get_pid(process_name)
+for i in pids:
+    os.kill(int(i), signal.SIGKILL)
+    print('kill PID:{}'.format(i))
+
+2017-11-21 23:59:51,764 - zzzbbb - INFO - scp command:scp /home/czb/kill.py root@139.159.215.252:/root/
+2017-11-21 23:59:52,211 - zzzbbb - ERROR - expect passwd error, try not use passwd!
+2017-11-21 23:59:57,321 - zzzbbb - ERROR - ssh connect TIMEOUT 
+Timeout exceeded.
+<pexpect.pty_spawn.spawn object at 0x7f19b6729590>
+command: /usr/bin/ssh
+args: ['/usr/bin/ssh', 'root@139.159.215.252']
+buffer (last 100 chars): '#############\r\nLast login: Tue Nov 21 23:47:37 2017 from 121.35.1.115\r\r\n\x1b]0;root@zzz: ~\x07root@zzz:~# '
+before (last 100 chars): '#############\r\nLast login: Tue Nov 21 23:47:37 2017 from 121.35.1.115\r\r\n\x1b]0;root@zzz: ~\x07root@zzz:~# '
+after: <class 'pexpect.exceptions.TIMEOUT'>
+match: None
+match_index: None
+exitstatus: None
+flag_eof: False
+pid: 7110
+child_fd: 6
+closed: False
+timeout: 30
+delimiter: <class 'pexpect.exceptions.EOF'>
+logfile: None
+logfile_read: None
+logfile_send: None
+maxread: 2000
+ignorecase: False
+searchwindowsize: None
+delaybeforesend: 0.05
+delayafterclose: 0.1
+delayafterterminate: 0.1
+searcher: searcher_re:
+    0: re.compile("password:")
+    1: re.compile("continue connecting (yes/no)?")
+
+
+2017-11-21 23:59:57,371 - zzzbbb - INFO - ---------- :Welcome to Ubuntu 14.04.5 LTS (GNU/Linux 4.4.0-31-generic x86_64)
+
+ * Documentation:  https://help.ubuntu.com/
+
+  System information as of Tue Nov 21 23:59:07 CST 2017
+
+  System load:  0.0               Processes:              123
+  Usage of /:   9.6% of 38.15GB   Users logged in:        1
+  Memory usage: 29%               IP address for eth0:    192.168.0.4
+  Swap usage:   0%                IP address for docker0: 172.17.0.1
+
+  Graph this data and manage this system at:
+    https://landscape.canonical.com/
+
+69 packages can be updated.
+45 updates are security updates.
+
+New release '16.04.3 LTS' available.
+Run 'do-release-upgrade' to upgrade to it.
+
+Your Hardware Enablement Stack (HWE) is supported until April 2019.
+  ######################################################################
+  #                              Notice                                #
+  #                                                                    #
+  #  1. Please DO NOT upgrade the kernel, as the kernel upgrade would  #
+  #   damage the original operating system.                            #
+  #                                                                    #
+  #  2. Please create unique passwords that use a combination of words,#
+  #   numbers, symbols, and both upper-case and lower-case letters.    #
+  #   Avoid using simple adjacent keyboard combinations such as        # 
+  #   "Qwert!234","Qaz2wsx",etc.                                       #
+  #                                                                    #
+  #  3. Unless necessary, please DO NOT open or use high-risk ports,   #
+  #   such as Telnet-23, FTP-20/21, NTP-123(UDP), RDP-3389,            #
+  #   SSH/SFTP-22, Mysql-3306, SQL-1433,etc.                           #
+  #                                                                    #
+  #                                                                    #
+  #                     Any questions please contact 4000-955-988      #
+  ######################################################################
+Last login: Tue Nov 21 23:47:37 2017 from 121.35.1.115
+]0;root@zzz: ~root@zzz:~# 
+2017-11-22 00:00:02,380 - zzzbbb - ERROR - ssh connect TIMEOUT 
+Timeout exceeded.
+<pexpect.pty_spawn.spawn object at 0x7f19b6729790>
+command: /usr/bin/ssh
+args: ['/usr/bin/ssh', 'root@139.159.215.252']
+buffer (last 100 chars): '#############\r\nLast login: Tue Nov 21 23:59:08 2017 from 121.35.1.115\r\r\n\x1b]0;root@zzz: ~\x07root@zzz:~# '
+before (last 100 chars): '#############\r\nLast login: Tue Nov 21 23:59:08 2017 from 121.35.1.115\r\r\n\x1b]0;root@zzz: ~\x07root@zzz:~# '
+after: <class 'pexpect.exceptions.TIMEOUT'>
+match: None
+match_index: None
+exitstatus: None
+flag_eof: False
+pid: 7111
+child_fd: 7
+closed: False
+timeout: 30
+delimiter: <class 'pexpect.exceptions.EOF'>
+logfile: None
+logfile_read: None
+logfile_send: None
+maxread: 2000
+ignorecase: False
+searchwindowsize: None
+delaybeforesend: 0.05
+delayafterclose: 0.1
+delayafterterminate: 0.1
+searcher: searcher_re:
+    0: re.compile("password:")
+    1: re.compile("continue connecting (yes/no)?")
+
+
+2017-11-22 00:00:02,481 - zzzbbb - INFO - -----------:Welcome to Ubuntu 14.04.5 LTS (GNU/Linux 4.4.0-31-generic x86_64)
+
+ * Documentation:  https://help.ubuntu.com/
+
+  System information as of Tue Nov 21 23:59:08 CST 2017
+
+  System load:  0.0               Processes:              123
+  Usage of /:   9.6% of 38.15GB   Users logged in:        1
+  Memory usage: 29%               IP address for eth0:    192.168.0.4
+  Swap usage:   0%                IP address for docker0: 172.17.0.1
+
+  Graph this data and manage this system at:
+    https://landscape.canonical.com/
+
+69 packages can be updated.
+45 updates are security updates.
+
+New release '16.04.3 LTS' available.
+Run 'do-release-upgrade' to upgrade to it.
+
+Your Hardware Enablement Stack (HWE) is supported until April 2019.
+  ######################################################################
+  #                              Notice                                #
+  #                                                                    #
+  #  1. Please DO NOT upgrade the kernel, as the kernel upgrade would  #
+  #   damage the original operating system.                            #
+  #                                                                    #
+  #  2. Please create unique passwords that use a combination of words,#
+  #   numbers, symbols, and both upper-case and lower-case letters.    #
+  #   Avoid using simple adjacent keyboard combinations such as        # 
+  #   "Qwert!234","Qaz2wsx",etc.                                       #
+  #                                                                    #
+  #  3. Unless necessary, please DO NOT open or use high-risk ports,   #
+  #   such as Telnet-23, FTP-20/21, NTP-123(UDP), RDP-3389,            #
+  #   SSH/SFTP-22, Mysql-3306, SQL-1433,etc.                           #
+  #                                                                    #
+  #                                                                    #
+  #                     Any questions please contact 4000-955-988      #
+  ######################################################################
+Last login: Tue Nov 21 23:59:08 2017 from 121.35.1.115
+]0;root@zzz: ~root@zzz:~# 
+2017-11-22 00:00:47,394 - zzzbbb - INFO - scp command:scp /home/czb/kill.py root@139.159.215.252:/root/
+2017-11-22 00:00:47,868 - zzzbbb - ERROR - expect passwd error, try not use passwd!
+2017-11-22 00:00:52,978 - zzzbbb - ERROR - ssh connect TIMEOUT 
+Timeout exceeded.
+<pexpect.pty_spawn.spawn object at 0x7f322a229590>
+command: /usr/bin/ssh
+args: ['/usr/bin/ssh', 'root@139.159.215.252']
+buffer (last 100 chars): '#############\r\nLast login: Tue Nov 21 23:59:13 2017 from 121.35.1.115\r\r\n\x1b]0;root@zzz: ~\x07root@zzz:~# '
+before (last 100 chars): '#############\r\nLast login: Tue Nov 21 23:59:13 2017 from 121.35.1.115\r\r\n\x1b]0;root@zzz: ~\x07root@zzz:~# '
+after: <class 'pexpect.exceptions.TIMEOUT'>
+match: None
+match_index: None
+exitstatus: None
+flag_eof: False
+pid: 7123
+child_fd: 6
+closed: False
+timeout: 30
+delimiter: <class 'pexpect.exceptions.EOF'>
+logfile: None
+logfile_read: None
+logfile_send: None
+maxread: 2000
+ignorecase: False
+searchwindowsize: None
+delaybeforesend: 0.05
+delayafterclose: 0.1
+delayafterterminate: 0.1
+searcher: searcher_re:
+    0: re.compile("password:")
+    1: re.compile("continue connecting (yes/no)?")
+
+
+2017-11-22 00:00:53,028 - zzzbbb - INFO - ---------- :<class 'pexpect.exceptions.TIMEOUT'>
+2017-11-22 00:00:58,036 - zzzbbb - ERROR - ssh connect TIMEOUT 
+Timeout exceeded.
+<pexpect.pty_spawn.spawn object at 0x7f322a229790>
+command: /usr/bin/ssh
+args: ['/usr/bin/ssh', 'root@139.159.215.252']
+buffer (last 100 chars): '#############\r\nLast login: Wed Nov 22 00:00:04 2017 from 121.35.1.115\r\r\n\x1b]0;root@zzz: ~\x07root@zzz:~# '
+before (last 100 chars): '#############\r\nLast login: Wed Nov 22 00:00:04 2017 from 121.35.1.115\r\r\n\x1b]0;root@zzz: ~\x07root@zzz:~# '
+after: <class 'pexpect.exceptions.TIMEOUT'>
+match: None
+match_index: None
+exitstatus: None
+flag_eof: False
+pid: 7124
+child_fd: 7
+closed: False
+timeout: 30
+delimiter: <class 'pexpect.exceptions.EOF'>
+logfile: None
+logfile_read: None
+logfile_send: None
+maxread: 2000
+ignorecase: False
+searchwindowsize: None
+delaybeforesend: 0.05
+delayafterclose: 0.1
+delayafterterminate: 0.1
+searcher: searcher_re:
+    0: re.compile("password:")
+    1: re.compile("continue connecting (yes/no)?")
+
+
+2017-11-22 00:00:58,137 - zzzbbb - INFO - -----------:Welcome to Ubuntu 14.04.5 LTS (GNU/Linux 4.4.0-31-generic x86_64)
+
+ * Documentation:  https://help.ubuntu.com/
+
+  System information as of Wed Nov 22 00:00:03 CST 2017
+
+  System load:  0.0               Processes:              125
+  Usage of /:   9.6% of 38.15GB   Users logged in:        1
+  Memory usage: 29%               IP address for eth0:    192.168.0.4
+  Swap usage:   0%                IP address for docker0: 172.17.0.1
+
+  Graph this data and manage this system at:
+    https://landscape.canonical.com/
+
+69 packages can be updated.
+45 updates are security updates.
+
+New release '16.04.3 LTS' available.
+Run 'do-release-upgrade' to upgrade to it.
+
+Your Hardware Enablement Stack (HWE) is supported until April 2019.
+  ######################################################################
+  #                              Notice                                #
+  #                                                                    #
+  #  1. Please DO NOT upgrade the kernel, as the kernel upgrade would  #
+  #   damage the original operating system.                            #
+  #                                                                    #
+  #  2. Please create unique passwords that use a combination of words,#
+  #   numbers, symbols, and both upper-case and lower-case letters.    #
+  #   Avoid using simple adjacent keyboard combinations such as        # 
+  #   "Qwert!234","Qaz2wsx",etc.                                       #
+  #                                                                    #
+  #  3. Unless necessary, please DO NOT open or use high-risk ports,   #
+  #   such as Telnet-23, FTP-20/21, NTP-123(UDP), RDP-3389,            #
+  #   SSH/SFTP-22, Mysql-3306, SQL-1433,etc.                           #
+  #                                                                    #
+  #                                                                    #
+  #                     Any questions please contact 4000-955-988      #
+  ######################################################################
+Last login: Wed Nov 22 00:00:04 2017 from 121.35.1.115
+]0;root@zzz: ~root@zzz:~# 
+2017-11-22 00:02:17,680 - zzzbbb - INFO - scp command:scp /home/czb/kill.py root@139.159.215.252:/root/
+2017-11-22 00:02:18,137 - zzzbbb - ERROR - expect passwd error, try not use passwd!
+2017-11-22 00:02:23,246 - zzzbbb - ERROR - ssh connect TIMEOUT 
+Timeout exceeded.
+<pexpect.pty_spawn.spawn object at 0x7f275c6574d0>
+command: /usr/bin/ssh
+args: ['/usr/bin/ssh', 'root@139.159.215.252']
+buffer (last 100 chars): '#############\r\nLast login: Wed Nov 22 00:00:09 2017 from 121.35.1.115\r\r\n\x1b]0;root@zzz: ~\x07root@zzz:~# '
+before (last 100 chars): '#############\r\nLast login: Wed Nov 22 00:00:09 2017 from 121.35.1.115\r\r\n\x1b]0;root@zzz: ~\x07root@zzz:~# '
+after: <class 'pexpect.exceptions.TIMEOUT'>
+match: None
+match_index: None
+exitstatus: None
+flag_eof: False
+pid: 7139
+child_fd: 6
+closed: False
+timeout: 30
+delimiter: <class 'pexpect.exceptions.EOF'>
+logfile: None
+logfile_read: None
+logfile_send: None
+maxread: 2000
+ignorecase: False
+searchwindowsize: None
+delaybeforesend: 0.05
+delayafterclose: 0.1
+delayafterterminate: 0.1
+searcher: searcher_re:
+    0: re.compile("password:")
+    1: re.compile("continue connecting (yes/no)?")
+
+
+2017-11-22 00:02:23,297 - zzzbbb - INFO - ---------- :<class 'pexpect.exceptions.TIMEOUT'>
+2017-11-22 00:02:56,706 - zzzbbb - INFO - scp command:scp /home/czb/kill.py root@139.159.215.252:/root/
+2017-11-22 00:02:57,164 - zzzbbb - ERROR - expect passwd error, try not use passwd!
+2017-11-22 00:03:02,274 - zzzbbb - ERROR - ssh connect TIMEOUT 
+Timeout exceeded.
+<pexpect.pty_spawn.spawn object at 0x7fcdb7d35490>
+command: /usr/bin/ssh
+args: ['/usr/bin/ssh', 'root@139.159.215.252']
+buffer (last 100 chars): '#############\r\nLast login: Wed Nov 22 00:01:34 2017 from 121.35.1.115\r\r\n\x1b]0;root@zzz: ~\x07root@zzz:~# '
+before (last 100 chars): '#############\r\nLast login: Wed Nov 22 00:01:34 2017 from 121.35.1.115\r\r\n\x1b]0;root@zzz: ~\x07root@zzz:~# '
+after: <class 'pexpect.exceptions.TIMEOUT'>
+match: None
+match_index: None
+exitstatus: None
+flag_eof: False
+pid: 7150
+child_fd: 6
+closed: False
+timeout: 30
+delimiter: <class 'pexpect.exceptions.EOF'>
+logfile: None
+logfile_read: None
+logfile_send: None
+maxread: 2000
+ignorecase: False
+searchwindowsize: None
+delaybeforesend: 0.05
+delayafterclose: 0.1
+delayafterterminate: 0.1
+searcher: searcher_re:
+    0: re.compile("password:")
+    1: re.compile("continue connecting (yes/no)?")
+
+
+2017-11-22 00:03:30,317 - zzzbbb - INFO - scp command:scp /home/czb/kill.py root@139.159.215.252:/root/
+2017-11-22 00:03:30,765 - zzzbbb - ERROR - expect passwd error, try not use passwd!
+2017-11-22 00:03:35,870 - zzzbbb - ERROR - ssh connect TIMEOUT 
+Timeout exceeded.
+<pexpect.pty_spawn.spawn object at 0x7feb13340490>
+command: /usr/bin/ssh
+args: ['/usr/bin/ssh', 'root@139.159.215.252']
+buffer (last 100 chars): '#############\r\nLast login: Wed Nov 22 00:02:13 2017 from 121.35.1.115\r\r\n\x1b]0;root@zzz: ~\x07root@zzz:~# '
+before (last 100 chars): '#############\r\nLast login: Wed Nov 22 00:02:13 2017 from 121.35.1.115\r\r\n\x1b]0;root@zzz: ~\x07root@zzz:~# '
+after: <class 'pexpect.exceptions.TIMEOUT'>
+match: None
+match_index: None
+exitstatus: None
+flag_eof: False
+pid: 7159
+child_fd: 6
+closed: False
+timeout: 30
+delimiter: <class 'pexpect.exceptions.EOF'>
+logfile: None
+logfile_read: None
+logfile_send: None
+maxread: 2000
+ignorecase: False
+searchwindowsize: None
+delaybeforesend: 0.05
+delayafterclose: 0.1
+delayafterterminate: 0.1
+searcher: searcher_re:
+    0: re.compile("password:")
+    1: re.compile("continue connecting (yes/no)?")
+
+
+2017-11-22 00:04:43,594 - zzzbbb - INFO - scp command:scp /home/czb/kill.py root@139.159.215.252:/root/
+2017-11-22 00:04:44,054 - zzzbbb - ERROR - expect passwd error, try not use passwd!
+2017-11-22 00:05:03,485 - zzzbbb - INFO - scp command:scp /home/czb/kill.py root@139.159.215.252:/root/
+2017-11-22 00:05:03,936 - zzzbbb - ERROR - expect passwd error, try not use passwd!
+2017-11-22 00:05:04,465 - zzzbbb - ERROR - ssh connect EOF 
+{}
+
+
+2017-11-22 00:05:04,466 - zzzbbb - INFO - ---------- :Wed Nov 22 00:04:20 CST 2017
+
+2017-11-22 00:05:04,888 - zzzbbb - ERROR - ssh connect EOF 
+{}
+
+
+2017-11-22 00:05:04,989 - zzzbbb - INFO - -----------:#!/usr/bin/python3
+#!encoding utf-8
+from subprocess import check_output
+import sys
+import os
+import signal
+def get_pid(name):
+    return check_output(['pgrep','-f','baidu']).decode('utf-8').split('\n')
+
+
+process_name = sys.argv[1]
+pids =  get_pid(process_name)
+for i in pids:
+    os.kill(int(i), signal.SIGKILL)
+    print('kill PID:{}'.format(i))
+
+2017-11-22 00:05:39,952 - zzzbbb - INFO - scp command:scp /home/czb/kill.py root@139.159.215.252:/root/
+2017-11-22 00:05:40,415 - zzzbbb - ERROR - expect passwd error, try not use passwd!
+2017-11-22 00:05:40,944 - zzzbbb - ERROR - ssh connect EOF 
+End Of File (EOF). Exception style platform.
+<pexpect.pty_spawn.spawn object at 0x7fc9e621e450>
+command: /usr/bin/ssh
+args: ['/usr/bin/ssh', 'root@139.159.215.252', 'date']
+buffer (last 100 chars): ''
+before (last 100 chars): 'Wed Nov 22 00:04:56 CST 2017\r\n'
+after: <class 'pexpect.exceptions.EOF'>
+match: None
+match_index: None
+exitstatus: None
+flag_eof: True
+pid: 7189
+child_fd: 6
+closed: False
+timeout: 30
+delimiter: <class 'pexpect.exceptions.EOF'>
+logfile: None
+logfile_read: None
+logfile_send: None
+maxread: 2000
+ignorecase: False
+searchwindowsize: None
+delaybeforesend: 0.05
+delayafterclose: 0.1
+delayafterterminate: 0.1
+searcher: searcher_re:
+    0: re.compile("password:")
+    1: re.compile("continue connecting (yes/no)?")
+
+
+2017-11-22 00:05:40,945 - zzzbbb - INFO - ---------- :Wed Nov 22 00:04:56 CST 2017
+
+2017-11-22 00:05:41,381 - zzzbbb - ERROR - ssh connect EOF 
+End Of File (EOF). Exception style platform.
+<pexpect.pty_spawn.spawn object at 0x7fc9e621e590>
+command: /usr/bin/ssh
+args: ['/usr/bin/ssh', 'root@139.159.215.252', 'cat /root/kill.py']
+buffer (last 100 chars): ''
+before (last 100 chars): "ess_name)\r\nfor i in pids:\r\n    os.kill(int(i), signal.SIGKILL)\r\n    print('kill PID:{}'.format(i))\r\n"
+after: <class 'pexpect.exceptions.EOF'>
+match: None
+match_index: None
+exitstatus: None
+flag_eof: True
+pid: 7190
+child_fd: 7
+closed: False
+timeout: 30
+delimiter: <class 'pexpect.exceptions.EOF'>
+logfile: None
+logfile_read: None
+logfile_send: None
+maxread: 2000
+ignorecase: False
+searchwindowsize: None
+delaybeforesend: 0.05
+delayafterclose: 0.1
+delayafterterminate: 0.1
+searcher: searcher_re:
+    0: re.compile("password:")
+    1: re.compile("continue connecting (yes/no)?")
+
+
+2017-11-22 00:05:41,482 - zzzbbb - INFO - -----------:#!/usr/bin/python3
+#!encoding utf-8
+from subprocess import check_output
+import sys
+import os
+import signal
+def get_pid(name):
+    return check_output(['pgrep','-f','baidu']).decode('utf-8').split('\n')
+
+
+process_name = sys.argv[1]
+pids =  get_pid(process_name)
+for i in pids:
+    os.kill(int(i), signal.SIGKILL)
+    print('kill PID:{}'.format(i))
+
