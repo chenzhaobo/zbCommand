@@ -6,6 +6,8 @@ import sys
 import stat
 import pexpect
 import logging
+from pexpect import pxssh
+
 def _setup_logging():
     """ Initialize logger. """
     # create logger with 'spam_application'
@@ -98,6 +100,8 @@ class Scp(object):
 
 
 # 服务器执行命令
+
+
 class SSH(object):
 
     def __init__(self, server):
@@ -105,35 +109,19 @@ class SSH(object):
         self.des_login_user = server.login_user
         self.des_ip =  server.IP
         self.des_passwd =  server.passwd
-        self.cmd =  ''
+        self.ssh =  pxssh.pxssh()
+        self._connect()
 
+    def _connect(self):
+        self.ssh.login(self.des_ip, self.des_login_user, self.des_passwd, original_prompt='[$#>~]')
 
     def excute_cmd(self, cmd):
-        command = 'ssh {user}@{ip} "{cmd}"'.format (user = self.des_login_user,
-                                                    ip = self.des_ip, cmd = cmd)
-        #command = 'ssh {user}@{ip} '.format (user = self.des_login_user,ip = self.des_ip, )
-        ssh = pexpect.spawn(command)
-        try:
-            i = ssh.expect(['password:', 'continue connecting (yes/no)?'], timeout=5)
-            print('--------------------', i)
-            if i == 0 :
-                ssh.sendline(passwd)
-            elif i == 1:
-                ssh.sendline('yes\n')
-                ssh.expect('password: ')
-                ssh.sendline(passwd)
+        self.ssh.sendline(cmd)
+        self.ssh.prompt()
+        return self.ssh.before
 
-
-        except pexpect.EOF as e:
-            log.error( "ssh connect EOF \n{}\n\n".format(e))
-        except pexpect.TIMEOUT as e:
-            log.error( "ssh connect TIMEOUT \n{}\n\n".format(e))
-        except Exception as e:
-            log.error( "ssh connect Unknown error\n {}\n\n".format(e))
-
-        self.ssh = ssh
-
-        return ssh.before
+    def close(self):
+        self.ssh.close()
 
     def date(self):
 
@@ -143,11 +131,6 @@ class SSH(object):
     def cat(self,path ):
 
         return self.excute_cmd('cat {}'.format(path))
-
-
-
-    def close(self):
-        self.ssh.close()
 
 
 
